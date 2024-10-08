@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from "react";
+/* eslint-disable react/no-unescaped-entities */
+import{ useState, useEffect } from "react";
 
 export function ViewForms() {
   const [forms, setForms] = useState([]); // Initialize with an empty array
